@@ -1,0 +1,18 @@
+name: GitHub Actions Demo
+run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+on: [push]
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+        - name: print hello world
+          run: echo "Hello-World"
+        
+        - name: Listing the directories
+          run: ls
+        
+        - name: create a file
+          run: touch 1214214.txt
+          
+        - name: Listing the directories
+          run: ls
